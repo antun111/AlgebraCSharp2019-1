@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{31F30331-D9D7-4529-9C4C-B096F2654F21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uvodni", "ConsoleApp1\Uvodni.csproj", "{31F30331-D9D7-4529-9C4C-B096F2654F21}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zbroj", "Zbroj\Zbroj.csproj", "{ED6EE9C5-4FD0-4B1D-8D20-55BDE1F655CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1_Uvod", "4.1_Uvod", "{367D78EA-B74E-4706-B146-16C12B8AA9CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello", "Hello\Hello.csproj", "{42C18B65-4D0F-471D-85D3-8BB35A6AB478}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispis brojeva", "Ispis brojeva\Ispis brojeva.csproj", "{2A14503D-685E-4D41-8D83-2733730061F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatura vode", "Temperatura vode\Temperatura vode.csproj", "{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,23 @@ Global
 		{ED6EE9C5-4FD0-4B1D-8D20-55BDE1F655CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED6EE9C5-4FD0-4B1D-8D20-55BDE1F655CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED6EE9C5-4FD0-4B1D-8D20-55BDE1F655CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42C18B65-4D0F-471D-85D3-8BB35A6AB478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42C18B65-4D0F-471D-85D3-8BB35A6AB478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42C18B65-4D0F-471D-85D3-8BB35A6AB478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42C18B65-4D0F-471D-85D3-8BB35A6AB478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A14503D-685E-4D41-8D83-2733730061F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A14503D-685E-4D41-8D83-2733730061F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A14503D-685E-4D41-8D83-2733730061F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A14503D-685E-4D41-8D83-2733730061F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{42C18B65-4D0F-471D-85D3-8BB35A6AB478} = {367D78EA-B74E-4706-B146-16C12B8AA9CE}
 	EndGlobalSection
 EndGlobal
