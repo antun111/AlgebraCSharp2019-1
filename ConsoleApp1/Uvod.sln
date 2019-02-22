@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispis brojeva", "Ispis broj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatura vode", "Temperatura vode\Temperatura vode.csproj", "{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1_varijable", "5.1_varijable", "{E21F5001-67F7-4402-B087-85ECB422D175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbroj_razlika", "zbroj_razlika\zbroj_razlika.csproj", "{CE62EC34-3313-44E1-98F4-1C26F309D96E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umnozak_kvocijent", "umnozak_kvocijent\umnozak_kvocijent.csproj", "{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,11 +47,21 @@ Global
 		{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38A543DD-B080-4ACE-9C8E-99A88FCA26DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE62EC34-3313-44E1-98F4-1C26F309D96E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE62EC34-3313-44E1-98F4-1C26F309D96E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE62EC34-3313-44E1-98F4-1C26F309D96E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE62EC34-3313-44E1-98F4-1C26F309D96E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{42C18B65-4D0F-471D-85D3-8BB35A6AB478} = {367D78EA-B74E-4706-B146-16C12B8AA9CE}
+		{CE62EC34-3313-44E1-98F4-1C26F309D96E} = {E21F5001-67F7-4402-B087-85ECB422D175}
+		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952} = {E21F5001-67F7-4402-B087-85ECB422D175}
 	EndGlobalSection
 EndGlobal

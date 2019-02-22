@@ -10,8 +10,8 @@ namespace Temperatura_vode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("0°C");
-            Console.WriteLine("100°C");
+            Console.WriteLine("Ledište vode je 0°C");
+            Console.WriteLine("Vrelište vode je 100°C");
             Console.ReadLine();
         }
     }
