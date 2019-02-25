@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zbroj_razlika", "zbroj_razl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "umnozak_kvocijent", "umnozak_kvocijent\umnozak_kvocijent.csproj", "{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2_Uvjetno_grananje", "5.2_Uvjetno_grananje", "{D098E9D1-116C-40FF-A28F-21F761FA584E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Priručnik", "Priručnik\Priručnik.csproj", "{8090EF01-44FF-4AFB-8AC3-EEB2A5EBB64A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,10 @@ Global
 		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8090EF01-44FF-4AFB-8AC3-EEB2A5EBB64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8090EF01-44FF-4AFB-8AC3-EEB2A5EBB64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8090EF01-44FF-4AFB-8AC3-EEB2A5EBB64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8090EF01-44FF-4AFB-8AC3-EEB2A5EBB64A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +71,6 @@ Global
 		{42C18B65-4D0F-471D-85D3-8BB35A6AB478} = {367D78EA-B74E-4706-B146-16C12B8AA9CE}
 		{CE62EC34-3313-44E1-98F4-1C26F309D96E} = {E21F5001-67F7-4402-B087-85ECB422D175}
 		{BA42C455-F9BB-4A9B-8779-8D6D90EAC952} = {E21F5001-67F7-4402-B087-85ECB422D175}
+		{8090EF01-44FF-4AFB-8AC3-EEB2A5EBB64A} = {D098E9D1-116C-40FF-A28F-21F761FA584E}
 	EndGlobalSection
 EndGlobal
