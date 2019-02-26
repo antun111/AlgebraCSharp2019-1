@@ -4,23 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace While
+namespace Neparni_do_20
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string ime = "";
-            while (ime != "kraj")
+            for (int i = 2; i < 20; i++)
             {
-                Console.WriteLine("Unesi ime");
-                ime = Console.ReadLine();
-
-                if(ime != "kraj")
+                if (i % 2 != 0)
                 {
-                    Console.WriteLine("Vaše ime je {0}", ime);
+                    Console.WriteLine("{0}", i);
                 }
             }
+            Console.ReadKey();
         }
     }
 }
