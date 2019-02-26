@@ -13,7 +13,7 @@ namespace X_znamenkasti_broj
             Console.Write("Unesite cijeli broj:");
             int a = int.Parse(Console.ReadLine());
 
-            if (a < 0) a = -a;4
+            if (a < 0) a = -a;
 
             if (a < 10)
             {
