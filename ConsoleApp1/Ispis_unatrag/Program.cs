@@ -4,18 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Suma_prvih_100_brojeva
+namespace Ispis_unatrag
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Suma prvih 100
-            Console.WriteLine("\n\nSuma prvih 5");
-            int suma = 0;
-            for (int i =0; i < 5; i++)
+            Console.Write("Prirodni brojevi iz intervala [1,10] unatrag su:");
+            for (int i = 10; i > 0; i--)
             {
-                Console.Write("{0} ", suma += i);
+                Console.WriteLine(i.ToString());
             }
             Console.ReadKey();
         }
