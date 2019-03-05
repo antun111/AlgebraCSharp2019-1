@@ -17,7 +17,6 @@ namespace _6._1._2_max_niz
             {
                 broj = int.Parse(Console.ReadLine());
                 niz[i] = broj;
-
             }
             
             for (int i = 0; i < niz.Length; i++)
@@ -25,7 +24,7 @@ namespace _6._1._2_max_niz
                 if (niz[i] == niz.Max())
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine(niz.Max());
+                    Console.WriteLine(" "+ niz.Max());
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 else
