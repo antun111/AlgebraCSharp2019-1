@@ -10,20 +10,47 @@ namespace _8._1._2._Prirucnik
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Što je to nastavnik?");
+            Console.WriteLine(Nastavnik.Opis());
+            Console.WriteLine("Koji je koeficijent nastavnika?");
+            Console.WriteLine(Nastavnik.Koeficijent());
+
+            Nastavnik n1 = new Nastavnik();
+            // ne možemo postaviti READ ONLY property
+            // n1.Ime = "Claudije";
+
+            // ispis može
+            Console.WriteLine("Njegovo ime je " + n1.Ime);
+
+            // OIB možemo postaviti
+            n1.Oib = 123345;
+
+            // Ne dozvoljava čitanje oiba
+            // Console.WriteLine("Njegov OIB je " + n1.Oib);
+
+            // Ispiši dio OIBa
+            Console.WriteLine("Njegov OIB je " + n1.PartialOib + "*********");
+
+
             //Instanciraj novi objekt klase Ucenik
             Ucenik uc1 = new Ucenik();
 
             //Inicijalizacija objekta
             Console.WriteLine("Unesite ime učenika: ");
-            uc1.Ime = Console.ReadLine();
+            uc1.Ime1 = Console.ReadLine();
+
             Console.WriteLine("Unesite prezime učenika: ");
             uc1.Prezime = Console.ReadLine();
+
             Console.Write("Unesite ocjenu iz matematike: ");
             uc1.OcjenaIzMatematike = int.Parse(Console.ReadLine());
+
             Console.Write("Unesite ocjenu iz engleskog: ");
             uc1.OcjenaIzEngleskog = int.Parse(Console.ReadLine());
+
             Console.Write("Unesite ocjenu iz biologije: ");
             uc1.OcjenaIzBiologije = int.Parse(Console.ReadLine());
+            
 
             Console.WriteLine("Prosjek je: " + uc1.Prosjek());
 
@@ -32,9 +59,9 @@ namespace _8._1._2._Prirucnik
 
             //2. objekt instanciran je pomoću 2. konstruktora
             Ucenik uc2 = new Ucenik("Perica");
-            Console.WriteLine(uc2.Prezime + " " + uc2.Ime);
+            Console.WriteLine(uc2.Prezime + " " + uc2.Ime1);
 
-            Console.WriteLine("Ime učenika je " + uc1.Ime + " i " + uc2.Ime);
+            Console.WriteLine("Ime učenika je " + uc1.Ime1 + " i " + uc2.Ime1);
 
             //List<Ucenik> ucenici = new List<Ucenik>(); // moze i ovako
             List<Ucenik> ucenici = new List<Ucenik> { uc1, uc2 };
@@ -42,7 +69,7 @@ namespace _8._1._2._Prirucnik
             ucenici.Add(uc2);
             foreach (var item in ucenici)
             {
-                Console.WriteLine(item.Ime);
+                Console.WriteLine(item.Ime1);
             }
             Console.ReadKey();
         }

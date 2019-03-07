@@ -6,14 +6,20 @@ using System.Threading.Tasks;
 
 namespace _8._1._2._Prirucnik
 {
-    class Ucenik
+    internal class Ucenik
     {
         public System.DateTime DatumNastanka;
-        public string Ime = "";
+        private string Ime = "";
         public string Prezime = "";
         public int OcjenaIzMatematike = 0;
         public int OcjenaIzEngleskog = 0;
         public int OcjenaIzBiologije = 0;
+
+        public string Ime1
+        {
+            get => Ime;
+            set => Ime = ToUpper.FirstCharToUpper(value);
+        }
 
         public Ucenik()
         {
@@ -22,11 +28,11 @@ namespace _8._1._2._Prirucnik
 
         public Ucenik(string v)
         {
-            this.Ime = v;
+            this.Ime1 = v;
         }
         public Ucenik(string v, string prez)
         {
-            this.Ime = v;
+            this.Ime1 = v;
             this.Prezime = prez;
         }
 
@@ -40,7 +46,7 @@ namespace _8._1._2._Prirucnik
         }
         public override string ToString()
         {
-            return "Moje ime je " + this.Ime + " a moj prosjek je: " + this.Prosjek();
+            return "Moje ime je " + this.Ime1 + " a moj prosjek je: " + this.Prosjek();
         }
     }
 }
