@@ -23,9 +23,21 @@ namespace _8._1._2._Prirucnik
             return "Nastavnik je osoba koja predaje u obrazovnim ustanovama";
             
         }
+
+        /// <summary>
+        /// Ovo dohvaća koeficijent za izračun plaće
+        /// </summary>
+        /// <returns>neki float</returns>
         public static float Koeficijent()
         {
             return 1.5f;
+        }
+        public override string ToString()
+        {
+            return "Moje ime je " 
+                + this.Ime 
+                + " a moj OIB je: " 
+                + this.PartialOib+"*********";
         }
     }
 }
