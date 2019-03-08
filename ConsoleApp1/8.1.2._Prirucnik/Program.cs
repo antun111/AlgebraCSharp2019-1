@@ -25,7 +25,7 @@ namespace _8._1._2._Prirucnik
             // OIB možemo postaviti
             n1.Oib = 123345;
 
-            Nastavnik.Koeficijent
+            Nastavnik.Koeficijent();
 
             // Ne dozvoljava čitanje oiba
             // Console.WriteLine("Njegov OIB je " + n1.Oib);
