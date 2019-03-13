@@ -131,6 +131,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.5_Događaji", "8.5_Događ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.5.1_događaji_primjer", "8.5.1_događaji_primjer\8.5.1_događaji_primjer.csproj", "{0687E027-FFA1-4793-93EB-1F87F5899522}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.1_Rad_s_tekstom", "9.1_Rad_s_tekstom", "{3D431908-DB12-448E-B1C9-038D971804DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.1.1_1.7_manipulacija", "9.1.1_17_manipulacija\9.1.1_1.7_manipulacija.csproj", "{74C6EF01-96D1-455D-AB68-18E6542B7CC5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -353,6 +357,10 @@ Global
 		{0687E027-FFA1-4793-93EB-1F87F5899522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0687E027-FFA1-4793-93EB-1F87F5899522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0687E027-FFA1-4793-93EB-1F87F5899522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74C6EF01-96D1-455D-AB68-18E6542B7CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74C6EF01-96D1-455D-AB68-18E6542B7CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74C6EF01-96D1-455D-AB68-18E6542B7CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74C6EF01-96D1-455D-AB68-18E6542B7CC5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -409,5 +417,6 @@ Global
 		{FFB9FEEE-D855-4EE8-A5E6-8F191D91289D} = {76768FAB-A8DF-4B5D-8DED-441DF8F65EA2}
 		{FA3286B0-BFFA-42EF-BBF5-639BCBA4CF11} = {76768FAB-A8DF-4B5D-8DED-441DF8F65EA2}
 		{0687E027-FFA1-4793-93EB-1F87F5899522} = {DAFCB42B-440B-48B8-B9E1-F5BED1B1BDEC}
+		{74C6EF01-96D1-455D-AB68-18E6542B7CC5} = {3D431908-DB12-448E-B1C9-038D971804DD}
 	EndGlobalSection
 EndGlobal
