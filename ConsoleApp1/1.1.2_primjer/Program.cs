@@ -11,7 +11,7 @@ namespace _1._1._2_primjer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("MApa u kojoj se izvršava naš program: ");
+            Console.WriteLine("Mapa u kojoj se izvršava naš program: ");
             Console.WriteLine(Environment.CurrentDirectory);
 
             Console.Write("Postoji li file Proba.txt u izvršnoj mapi:");
