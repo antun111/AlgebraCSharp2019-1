@@ -30,14 +30,27 @@ namespace Rijec_kraj
             Console.WriteLine();
             Console.Write("Riječi koje počinju sa slovom \"a\" su: ");
 
+            foreach (string rijec in rijeciSaSlovomA)
+            {
+                Console.WriteLine(rijec + ",");
+            }
+
             List<string> rijeciSaSlovomB = (from rijec in rijeci where rijec.ToLower().StartsWith("b") select rijec).ToList();
             Console.WriteLine();
             Console.Write("Riječi koje počinju sa slovom \"b\" su: ");
 
+            foreach (string rijec in rijeciSaSlovomB)
+            {
+                Console.WriteLine(rijec + ",");
+            }
             List<string> rijeciSaSlovomC = (from rijec in rijeci where rijec.ToLower().StartsWith("c") select rijec).ToList();
             Console.WriteLine();
             Console.Write("Riječi koje počinju sa slovom \"c\" su: ");
 
+            foreach (string rijec in rijeciSaSlovomC)
+            {
+                Console.WriteLine(rijec + ",");
+            }
             foreach (string rijec in rijeci)
             {
                 Console.WriteLine(rijec + ",");

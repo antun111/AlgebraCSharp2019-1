@@ -19,7 +19,6 @@ namespace Zadatak_3
             return godine;
 
         }
-
         public double Cijena()
         {
             double cijena = 0;

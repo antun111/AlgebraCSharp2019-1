@@ -11,13 +11,13 @@ namespace Zadatak_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Unesite prirodan broj");
+            Console.WriteLine("Unesite prirodan broj: ");
             string broj = Console.ReadLine();
 
-            char[] znamenkeArray = broj.ToCharArray();
-            Array.Reverse(znamenkeArray);
+            char[] brojArray = broj.ToCharArray();
+            Array.Reverse(brojArray);
             Console.WriteLine("Ispis znamenki naopako: ");
-            Console.WriteLine(znamenkeArray);
+            Console.WriteLine(brojArray);
 
             Console.ReadKey();
 
